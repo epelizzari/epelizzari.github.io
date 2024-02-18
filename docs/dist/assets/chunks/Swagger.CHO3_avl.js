@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as n}from"./framework.DloxLV0O.js";const o={name:"Swagger",props:{yaml:String,id:String},mounted(){SwaggerUIBundle({url:this.yaml,dom_id:"#"+this.id,docExpansion:"list"})}},r=["id"];function a(i,c,e,d,_,l){return t(),n("div",{class:"swagger",id:e.id},null,8,r)}const m=s(o,[["render",a]]);export{m as S};
