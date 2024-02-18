@@ -3,9 +3,9 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Braida Documentacion",
+  base: "/docs",
   description:
     "Documentacion de proyecto de analista programador para Braida Propiedades",
-  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
