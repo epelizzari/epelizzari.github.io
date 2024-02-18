@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Braida Documentacion",
   description:
     "Documentacion de proyecto de analista programador para Braida Propiedades",
-  base: "/docs/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
