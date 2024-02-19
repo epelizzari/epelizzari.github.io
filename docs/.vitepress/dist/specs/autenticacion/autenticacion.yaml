@@ -1,0 +1,208 @@
+openapi: 3.0.2
+info:
+  title: Autenticación API
+  description: API para la gestión de autenticación de usuarios.
+  version: "1.0.0"
+servers:
+  - url: http://localhost:3000/api
+    description: Servidor de desarrollo
+paths:
+  /usuarios/login:
+    post:
+      summary: Inicia sesión de usuario
+      tags:
+        - Usuarios
+      security: []    # no authentication required
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nickname:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Usuario logueado con éxito
+          headers:
+            Set-Cookie:
+              description: Cookie de sesión
+              schema:
+                type: string
+                example: JSESSIONID=abcde12345; Path=/; HttpOnly
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '400':
+          description: Error al loguear usuario
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /usuarios/buscarUsuarioNickname/{nickname}:
+    get:
+      summary: Busca usuarios por nickname
+      tags:
+        - Usuarios
+      security:
+        - cookieAuth: []
+      parameters:
+        - in: path
+          name: nickname
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Usuarios encontrados con éxito
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UsuarioResponse'
+        '400':
+          description: Error al buscar usuarios
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /usuarios/logout:
+    post:
+      summary: Cierra la sesión del usuario
+      tags:
+        - Usuarios
+      security:
+        - cookieAuth: []
+      responses:
+        '200':
+          description: Usuario deslogueado con éxito
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+
+  /usuarios/checkAuthStatus:
+    get:
+      summary: Verifica el estado de autenticación del usuario
+      tags:
+        - Usuarios
+      security:
+        - cookieAuth: []
+      responses:
+        '200':
+          description: Usuario autenticado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CheckAuthResponse'
+        '401':
+          description: Usuario no autenticado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: _token
+  schemas:
+    LoginResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        data:
+          type: object
+          properties:
+            id:
+              type: integer
+            nombre:
+              type: string
+            nickname:
+              type: string
+            email:
+              type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+            profiles:
+              type: array
+              items:
+                $ref: '#/components/schemas/Perfil'
+
+    UsuarioResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/UsuarioData'
+
+    UsuarioData:
+      type: object
+      properties:
+        id:
+          type: integer
+        nombre:
+          type: string
+        nickname:
+          type: string
+        email:
+          type: string
+        profiles:
+          type: array
+          items:
+            $ref: '#/components/schemas/Perfil'
+
+    Perfil:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+
+    SuccessResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+
+    CheckAuthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        data:
+          type: object
+          properties:
+            usuario:
+              $ref: '#/components/schemas/UsuarioData'
+
+    ErrorResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        error:
+          type: string

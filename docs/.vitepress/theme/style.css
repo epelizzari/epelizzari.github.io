@@ -1,0 +1,171 @@
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 25px;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+.cardsContainer .card {
+  background-color: var(--vp-carbon-ads-bg-color);
+  padding: 30px 30px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsContainer .card:hover {
+  border: 1px solid #0095ff;
+  cursor: pointer;
+}
+
+.cardsContainer .card a {
+  background-color: #272a2c;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.cardsContainer .card a:hover {
+  color: #0095ff;
+}
+
+.cardsContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.cardsContainer .card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.cardsContainer .card h3:hover {
+  color: #0095ff;
+  transition: 0.3s;
+}
+
+.cardsContainer .card p {
+  font-size: 15px;
+  margin-top: 3px;
+  line-height: 23px;
+}
+
+.VPBadge {
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 970px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cardsContainer {
+    grid-template-columns: repeat(1, 2fr);
+  }
+}
+
+/* *{
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: 600;
+}
+ */
+
+:root {
+  --vp-home-hero-name-color: #0095ff;
+  --vp-c-indigo-3: #0095ff;
+  --vp-button-brand-hover-bg: #41b0ff;
+  --input-text-color: #000; /* Modo claro */
+  --input-text-color-dark: #fff; /* Modo oscuro */
+}
+input {
+  color: var(--input-text-color); /* Por defecto para modo claro */
+}
+
+.dark-mode input {
+  color: var(--input-text-color-dark); /* Para modo oscuro */
+}
+.contenedorChannel {
+  display: flex;
+  align-items: center !important;
+}
+
+.contenedorChannel img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 1s;
+}
+
+.activity img {
+  width: 35px;
+  height: 35px;
+}
+
+.opblock-summary-path,
+.opblock-summary-description,
+.renderedMarkdown p,
+.opblock-description-wrapper p,
+.responses-header,
+.models-control,
+.model-title,
+.model-toggle,
+.parameter__name,
+.parameter__type,
+.response-col_status,
+.response-col_description,
+.response-col_links,
+.parameters-col_name,
+.parameters-col_description,
+.active,
+.tablinks {
+  color: var(--vp-c-text-1) !important;
+}
+
+.titleWithIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.titleWithIcon img {
+  width: 40px;
+  height: 40px;
+}
