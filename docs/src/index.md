@@ -30,3 +30,7 @@ features:
     title: Api
     details: "Documentacion de api"
     link: /developer/README.md
+  - icon: 🧬
+    title: Acerca del sistema
+    details: "Ver mas"
+    link: /about/README.md

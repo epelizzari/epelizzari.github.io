@@ -66,3 +66,16 @@ Estas acciones están diseñadas para ofrecer una gestión eficiente y detallada
 
 - **Eficiencia Operativa**: Simplifica la gestión inmobiliaria mediante la gestion agil de tareas rutinarias y la centralización de la información.
 - **Mejora de la Experiencia del Cliente**: Proporciona a los clientes potenciales una plataforma accesible y fácil de usar para encontrar su próximo hogar o inversión.
+
+
+## Tecnologías Utilizadas en el Sistema
+
+- **MySQL**: Sistema de gestión de bases de datos relacional para almacenar y gestionar los datos de la aplicación.
+- **Sequelize**: ORM (Object-Relational Mapping) para Node.js, facilita la interacción con bases de datos SQL como MySQL.
+- **Node.js**: Entorno de ejecución para JavaScript en el servidor, utilizado para construir el backend de la aplicación.
+- **Express**: Framework de Node.js para construir aplicaciones web y APIs de manera rápida y sencilla.
+- **Vue.js**: Framework progresivo para construir interfaces de usuario.
+- **Axios**: Biblioteca cliente HTTP basada en promesas para hacer solicitudes a APIs desde el navegador o Node.js.
+- **Vuetify**: Framework de componentes UI para Vue.js basado en Material Design.
+- **Pinia**: Biblioteca de gestión de estado para aplicaciones Vue.js, ofreciendo una alternativa a Vuex con una API más sencilla y un mejor soporte de TypeScript.
+- **VitePress**: Generador de sitios estáticos basado en Vite, optimizado para la creación y el despliegue de documentación técnica.

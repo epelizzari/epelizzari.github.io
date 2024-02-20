@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: Home
 hero:
   name: "Documentacion Braida Propiedades"
   text: "Proyecto AP PY30 Braida Propiedades"
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

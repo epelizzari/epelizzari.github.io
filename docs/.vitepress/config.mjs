@@ -212,6 +212,10 @@ export default defineConfig({
               text: "Beneficios Clave",
               link: "/about/generales/generales.md#beneficios-clave",
             },
+            {
+              text: "Tecnologías Utilizadas en el Sistema",
+              link: "/about/generales/generales.md#tecnologias-utilizadas-en-el-sistema",
+            },
           ],
         },
       ],
