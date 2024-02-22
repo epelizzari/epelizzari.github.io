@@ -121,37 +121,41 @@ export default defineConfig({
                   link: "/administrator/modulo-de-propiedades.md#acceso-al-modulo",
                 },
                 {
-                  text: "Creación de Propiedad",
-                  link: "/administrator/modulo-de-propiedades.md#creacion-de-propiedad",
-                },
-                {
-                  text: "Listado de Propiedades",
-                  link: "/administrator/modulo-de-propiedades.md#listado-de-propiedades",
-                },
-                {
-                  text: "Filtros y Búsqueda",
-                  link: "/administrator/modulo-de-propiedades.md#filtros-y-busqueda",
-                },
-                {
-                  text: "Acciones sobre Propiedades",
-                  link: "/administrator/modulo-de-propiedades.md#acciones-sobre-propiedades",
+                  text: "Gestión de Propiedades",
+                  link: "/administrator/modulo-de-propiedades.md#gestion-de-propiedades",
                   collapsed: true,
                   items: [
                     {
-                      text: "Modificar/Actualizar Propiedad",
-                      link: "/administrator/modulo-de-propiedades.md#modificar-actualizar-propiedad",
+                      text: "Creación de Propiedad",
+                      link: "/administrator/modulo-de-propiedades.md#creacion-de-propiedad",
+                    },
+                    {
+                      text: "Listado de Propiedades",
+                      link: "/administrator/modulo-de-propiedades.md#listado-de-propiedades",
+                    },
+                    {
+                      text: "Filtros y Búsqueda",
+                      link: "/administrator/modulo-de-propiedades.md#filtros-y-busqueda",
+                    },
+                    {
+                      text: "Acciones sobre las Propiedades",
+                      link: "/administrator/modulo-de-propiedades.md#acciones-sobre-las-propiedades",
                     },
                     {
                       text: "Vista Previa de Publicación",
                       link: "/administrator/modulo-de-propiedades.md#vista-previa-de-publicacion",
                     },
                     {
-                      text: "Cambios de Estado",
-                      link: "/administrator/modulo-de-propiedades.md#cambios-de-estado",
+                      text: "Gestion de imagenes",
+                      link: "/administrator/modulo-de-propiedades.md#gestion-de-imagenes",
                     },
                     {
-                      text: "Eliminar Propiedad",
-                      link: "/administrator/modulo-de-propiedades.md#eliminar-propiedad",
+                      text: "Caracteristicas adicionales",
+                      link: "/administrator/modulo-de-propiedades.md#caracteristicas-adicionales",
+                    },
+                    {
+                      text: "Mapa",
+                      link: "/administrator/modulo-de-propiedades.md#mapa",
                     },
                   ],
                 },
@@ -168,7 +172,7 @@ export default defineConfig({
                 },
                 {
                   text: "Gestión de Arrendadores/Propietarios",
-                  link: "/administrator/modulo-de-propiedades.md#gestion-de-arrendadores-propietarios",
+                  link: "/administrator/modulo-de-arrendadores.md#gestion-de-arrendadores-propietarios",
                   collapsed: true,
                   items: [
                     {
@@ -180,12 +184,21 @@ export default defineConfig({
                       link: "/administrator/modulo-de-arrendadores.md#listado-de-arrendadores-propietarios",
                     },
                     {
-                      text: "Modificar/Actualizar Arrendador/Propietario",
-                      link: "/administrator/modulo-de-arrendadores.md#modificar-actualizar-arrendador-propietario",
+                      text: "Busqueda",
+                      link: "/administrator/modulo-de-arrendadores.md#busqueda",
+                    },
+
+                    {
+                      text: "Acciones sobre los Arrendadores",
+                      link: "/administrator/modulo-de-arrendadores.md#acciones-sobre-los-arrendadores",
                     },
                     {
                       text: "Propiedades Asociadas al Arrendador",
                       link: "/administrator/modulo-de-arrendadores.md#propiedades-asociadas-al-arrendador",
+                    },
+                    {
+                      text: "Informacion Adicional",
+                      link: "/administrator/modulo-de-arrendadores.md#informacion-adicional",
                     },
                   ],
                 },

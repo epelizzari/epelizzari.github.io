@@ -7,9 +7,10 @@ Este módulo permite la gestión de los arrendadores o propietarios de las propi
 Para acceder al módulo de arrendadores/propietarios:
 
 1. Dirígete al menú lateral izquierdo de la pantalla.
-2. Selecciona la opción "Arrendadores" o "Propietarios".
+2. Selecciona la opción "Arrendadores" seguido de "Lista de arrendadores".
 
-<!-- ![Imagen del acceso al módulo de arrendadores](/path/to/arrendadores_module_access.png) -->
+![Imagen del acceso al módulo de arrendadores](/assets/arrendadores/ListaArrendadores.png)
+
 
 En esta sección, encontrarás un listado de todos los arrendadores registrados, con opciones para gestionar su información y propiedades asociadas.
 
@@ -20,59 +21,91 @@ En esta sección, encontrarás un listado de todos los arrendadores registrados,
 Para registrar un nuevo arrendador en el sistema:
 
 1. Haz clic en el botón "Agregar Arrendador" en la parte superior de la vista del módulo.
-2. Completa el formulario con la información del arrendador.
 
-<!-- ![Imagen del formulario de arrendador](/path/to/add_arrendador_form.png) -->
+    ![Imagen del botón agregar propiedad](/assets/arrendadores/btnAgregarArrendador.png)
+
+2. Serás llevado al formulario de creación de arrendador, donde deberás ingresar toda la información relevante.
+
+### Información Requerida
+
+- **Nombre:** Nombre y apellido del arrendador.
+- **Email:** Email de contacto del arrendador.
+- **Telefono:** Telefono de contacto del arrendadpr.
+- **Documento:** Documento de identificacion del arrendador.
+- **Direccion:** Direccion del arrendador.
+- **Seccion de Informacion adicionale:** Permite agregar informacion especifica sobre el arrendador en particular que esta siendo cargado o modificado. Guia de gestion de informacion adicional [Adicional](administrator/modulo-de-arrendadores.html#informacion-adicional).
+
+    ![Imagen del formulario de arrendador](/assets/arrendadores/FormArrendadorCompleto.png)
+
+
+
+Una vez completado el formulario, haz clic en "Guardar" para añadir el arrendador en el sistema.
+En caso contrario si se presiona el boton "Cancelar" la informacion ingresada hasta el momemento se pierde y seras re dirigido al listado inicial.
+
+**Nota: todos los campos son obligatorios para la creacion de un arrendador excepto las caracateristicas variables.**
+
 
 ### Listado de Arrendadores/Propietarios
 
 Aquí se muestra una lista completa de todos los arrendadores, permitiéndote acceder rápidamente a su información y gestionar las propiedades asociadas.
 
-<!-- ![Imagen del listado de arrendadores](/path/to/arrendadores_list.png) -->
+![Imagen del listado de arrendadores](/assets/arrendadores/ArrendadoresListado.png)
 
-### Modificar/Actualizar Arrendador/Propietario
 
-Para actualizar la información de un arrendador:
+### Búsqueda
 
-1. Selecciona el arrendador deseado del listado.
-2. Haz clic en "Editar" para modificar sus datos.
+Utiliza el campo de busqueda disponible para refinar el listado de arrendadores mostrados. Presiona enter para ejecutar la busqueda
+
+
+### Acciones sobre los Arrendadores
+
+Para acceder a las acciones sobre el arrendador seleccionado, se debe desplegar el menu de 3 puntos verticales ubicados en cada fila de la lista de arrendadores, donde se visualizan las siguientes opciones:
+
+- **Modificar/Actualizar:** Para editar la información de un arrendador existente.
+
+    Los pasos para actualizar la informacion de una propiedad son los siguientes:
+
+1. Haz clic en la opcion "Editar" del menu.
+2. Serás dirigido al formulario de modificacion de arrendador, donde deberás modificar toda la información que desees.
+
+    **Nota: el formulario de creacion y modificacion de arrendador son iguales.**
+
+- **Gestionar propiedades:** Permite gestionar las propiedades asociadas para arrendador selecccionado. Guia de gestion de propiedades asociadas [Propiedades asociadas](/administrator/modulo-de-arrendadores.html#propiedades-asociadas-al-arrendador).
+
+- **Eliminar:** Remueve el arrendador del sistema.
+
+    Para eliminar un arrendador haz clic en la opcion "Eliminar" del menu, luego confirma la accion para eliminar el arrendador seleccionado arrendador del sistema.
 
 ### Propiedades Asociadas al Arrendador
 
-Dentro de la ficha de cada arrendador, podrás ver y gestionar las propiedades que le están asociadas, facilitando la administración centralizada de la información.
+Para cada arrendador cargado en el sistema, existe un listado de propiedades asociados que inicialmente se encontrara vacio, a traves de este listado una vez que asocies propiedades podrás ver y gestionar las propiedades que le están asociadas, facilitando la administración centralizada de la información.
 
-<!-- ![Imagen de propiedades asociadas](/path/to/associated_properties.png) -->
+1. Haz clic en "Gestionar Propiedades" para ingresar al modulo de gestion y  asociar o desasociar propiedades al arrendador.
+1. Una vez que realices los cambios deseados debes presionar el boton "Confirmar cambios" para que estos se guarden en el sistema
 
-Este módulo es esencial para mantener una relación clara entre propiedades y sus respectivos propietarios, asegurando una gestión eficaz del inventario inmobiliario.
 
-### Permissions
+    El modulo de gestion de propiedades se divide en dos grandes sectores:
 
-When we talk about dialer, in addition to the ordinary permissions such as view, create, delete, and modify, there is also certain special permissions, below is a brief explanation of them.
+    - **Lista de propiedades disponibles y seleccionadas :** Este listado muestra todas las propiedades disponibles en el sistema y que pueden ser asociadas al arrendador seleccionad, en la media en que se seleccionen propiedades del listado, las mismas iran quedando marcadas para facilitar la visualizacion al usurio.
 
-<!-- | Permission | Function |
-| --- | --- |
-| <div class="h4WithIcon"><img src="/assets/permissions/code.png" alt="Create permission" class="permissionIcon">View</div> | Allows the user to view existing dialers |
-| <div class="h4WithIcon"><img src="/assets/permissions/create.png" alt="Create permission" class="permissionIcon">Create</div> | Allows the user to create new dialer |
-| <div class="h4WithIcon"><img src="/assets/permissions/edit.png" alt="Edit permission" class="permissionIcon">Edit</div> | Allows the user to update existing dialer |
-| <div class="h4WithIcon"><img src="/assets/permissions/delete.png" alt="Delete permission" class="permissionIcon">Delete</div> | Allows the user to delete dialer |
-| <div class="h4WithIcon"><img src="/assets/permissions/list.png" alt="List permission" class="permissionIcon">List</div> | Allows the user to monitor and manage the lists uploaded to the dialer | -->
+    ![Imagen de lista de  propiedades disponibles ](/assets/arrendadores/ListadoDisponiblesAsociar.png)
 
-You can choose from default values by selecting a country, and then customize them according to your needs. Alternatively, you have the option to configure all the settings manually based on your preferences. The variables are the following:
+    - **Lista de propiedades asociadas:** En esta lista se muestran aquellas propiedades asignadas al arrendador. Desde este modulo es posible: agrear o eliminar propiedades al listado de asociadas al arrendador .
 
-| Field                    | Description                                                                                                   |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| **initialSilence**       | Is maximum initial silence duration before greeting                                                           |
-| **greeting**             | is the maximum length of a greeting                                                                           |
-| **afterGreetingSilence** | Is the silence after detecting a greeting                                                                     |
-| **totalAnalysisTime**    | Is the maximum time allowed for the algorithm to decide on whether the audio represents a HUMAN, or a MACHINE |
-| **minimumWordLength**    | Is the minimum duration of Voice considered to be a word                                                      |
-| **betweenWordsSilence**  | Is the minimum duration of silence after a word to consider the audio that follows to be a new word           |
-| **maximumNumberOfWords** | Is the maximum number of words in a greeting. If this is REACHED, then the result is detection as a MACHINE   |
-| **silenceThreshold**     | What is the average level of noise from 0 to 32767 which if not exceeded, should be considered silence?       |
+    ![Imagen de lista de propiedades asociadas al arrendador](/assets/arrendadores/ListadoAsociadasArrendador.png)
 
-<!-- <img src="/assets/dialers/deleteConfirm.png" alt="Delete confirm dialog" class="image"> -->
+    Este módulo es esencial para mantener una relación clara entre propiedades y sus respectivos propietarios, asegurando una gestión eficaz del inventario inmobiliario.
 
----
+### Informacion Adicional
+
+El formulario para crear arrendador incorpora una funcionalidad esencial: la capacidad de añadir características específicas para cada arrebdador en el sistema. Para incluir nueva informacion adicional, ve a la sección "Informacion Adicional" y haz clic en el botón "Agregar". 
+El sistema mostrará dos campos en paralelo: uno para el nombre de la característica y otro para su valor correspondiente. Si deseas añadir otra característica, simplemente presiona de nuevo el botón "Agregar" y sigue el procedimiento descrito. Al guardar el arrendador, esta informacion se almacenarán junto con el resto de la información.
+
+**Nota: Es posible editar o eliminar esta informacion adicional en cualquier momento.**
+
+![Imagen de informacion adicional](/assets/arrendadores/InformacionAdicional.png)
+
+
 
 <style>
     .chartTypeIcon, .sourceIcon{
