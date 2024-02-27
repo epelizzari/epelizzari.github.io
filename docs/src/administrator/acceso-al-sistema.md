@@ -22,3 +22,6 @@ Para cerrar sesión y salir del sistema:
 
 
 Recuerda cerrar sesión al terminar tus tareas para mantener la seguridad de la información.
+
+## Videos de las funcionalidades
+Por mas detalles sobre estas funcionalidades puedes dirigirte a la guia de video: [Login/Logout](/administrator/videos.md)

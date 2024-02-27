@@ -106,6 +106,10 @@ El sistema mostrará dos campos en paralelo: uno para el nombre de la caracterí
 ![Imagen de informacion adicional](/assets/arrendadores/InformacionAdicional.png)
 
 
+## Videos de las funcionalidades
+
+Por mas detalles de las funciones descriptas en este modulo accede a las guias de video [Arrendadores](/administrator/videos.md#arrendadores)
+
 
 <style>
     .chartTypeIcon, .sourceIcon{

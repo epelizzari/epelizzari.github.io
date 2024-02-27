@@ -94,22 +94,11 @@ export default defineConfig({
       "/administrator": [
         {
           text: "Guia de usuario",
-          collapsed: true,
+
           items: [
             {
               text: "Acceso al sistema",
               link: "/administrator/acceso-al-sistema.md",
-              collapsed: true,
-              items: [
-                {
-                  text: "Login",
-                  link: "/administrator/acceso-al-sistema.md#login",
-                },
-                {
-                  text: "Logout",
-                  link: "/administrator/acceso-al-sistema.md#logout",
-                },
-              ],
             },
             {
               text: "Propiedades",
@@ -137,30 +126,36 @@ export default defineConfig({
                       text: "Filtros y Búsqueda",
                       link: "/administrator/modulo-de-propiedades.md#filtros-y-busqueda",
                     },
+
                     {
                       text: "Acciones sobre las Propiedades",
                       link: "/administrator/modulo-de-propiedades.md#acciones-sobre-las-propiedades",
                     },
                     {
-                      text: "Vista Previa de Publicación",
-                      link: "/administrator/modulo-de-propiedades.md#vista-previa-de-publicacion",
+                      text: "Vista Previa de la Publicación",
+                      link: "/administrator/modulo-de-propiedades.md#vista-previa-de-la-publicacion",
                     },
                     {
                       text: "Gestion de imagenes",
                       link: "/administrator/modulo-de-propiedades.md#gestion-de-imagenes",
                     },
                     {
-                      text: "Caracteristicas adicionales",
+                      text: "Características Adicionales",
                       link: "/administrator/modulo-de-propiedades.md#caracteristicas-adicionales",
                     },
                     {
                       text: "Mapa",
                       link: "/administrator/modulo-de-propiedades.md#mapa",
                     },
+                    {
+                      text: "Videos de las funcionalidades",
+                      link: "/administrator/modulo-de-propiedades.md#videos-de-las-funcionalidades",
+                    }
                   ],
                 },
               ],
             },
+
             {
               text: "Arrendadores/Propietarios",
               collapsed: true,
@@ -200,9 +195,32 @@ export default defineConfig({
                       text: "Informacion Adicional",
                       link: "/administrator/modulo-de-arrendadores.md#informacion-adicional",
                     },
+                    {
+                      text: "Videos de las funcionalidades",
+                      link: "/administrator/modulo-de-arrendadores.md#videos-de-las-funcionalidades",
+                    }
                   ],
                 },
               ],
+            },
+          ],
+        },
+        {
+          text: "Guía de Funcionalidades de la Plataforma",
+          collapsed: true,
+          link: "/administrator/videos.md",
+          items: [
+            {
+              text: "Autenticacion",
+              link: "/administrator/videos.md#introduccion",
+            },
+            {
+              text: "Propiedades",
+              link: "/administrator/videos.md#propiedades",
+            },
+            {
+              text: "Arrendadores",
+              link: "/administrator/videos.md#arrendadores",
             },
           ],
         },
