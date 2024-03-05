@@ -3,7 +3,7 @@ title: Home
 layout: home
 hero:
   name: Bienvenido
-  text: a la documentacion de Braida Propiedades.
+  text: a la documentación de Braida Propiedades.
   tagline: Proyecto de Analista Programador ORT
   footer: Braida Propiedades by Deibis Martinez 219091, Enzo Pelizzari 177816 - GRUPO PY30
   image:
@@ -19,18 +19,18 @@ hero:
 features:
   - icon: 💼
     title: Manual de usuario
-    details: Ver mas
+    details: Ver más
     link: /administrator/README.md
  
   - icon: 👨‍💻
     title: Conceptos
-    details: Ver mas
+    details: Ver más
     link: /concepts/README.md
   - icon: ⚙️
     title: Api
-    details: "Documentacion de api"
+    details: "Documentación de api"
     link: /developer/README.md
   - icon: 🧬
     title: Acerca del sistema
-    details: "Ver mas"
+    details: "Ver más"
     link: /about/README.md

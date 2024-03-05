@@ -46,7 +46,7 @@ export default defineConfig({
         label: "Español",
         selectText: "Lenguages",
         nav: [
-          { text: "guia", link: "/guia/" },
+          { text: "guía", link: "/guia/" },
           {
             text: "API",
             link: "/api/",
@@ -93,7 +93,7 @@ export default defineConfig({
     sidebar: {
       "/administrator": [
         {
-          text: "Guia de usuario",
+          text: "Guía de usuario",
 
           items: [
             {
@@ -150,7 +150,7 @@ export default defineConfig({
                     {
                       text: "Videos de las funcionalidades",
                       link: "/administrator/modulo-de-propiedades.md#videos-de-las-funcionalidades",
-                    }
+                    },
                   ],
                 },
               ],
@@ -179,7 +179,7 @@ export default defineConfig({
                       link: "/administrator/modulo-de-arrendadores.md#listado-de-arrendadores-propietarios",
                     },
                     {
-                      text: "Busqueda",
+                      text: "Búsqueda",
                       link: "/administrator/modulo-de-arrendadores.md#busqueda",
                     },
 
@@ -192,13 +192,13 @@ export default defineConfig({
                       link: "/administrator/modulo-de-arrendadores.md#propiedades-asociadas-al-arrendador",
                     },
                     {
-                      text: "Informacion Adicional",
+                      text: "Información Adicional",
                       link: "/administrator/modulo-de-arrendadores.md#informacion-adicional",
                     },
                     {
                       text: "Videos de las funcionalidades",
                       link: "/administrator/modulo-de-arrendadores.md#videos-de-las-funcionalidades",
-                    }
+                    },
                   ],
                 },
               ],

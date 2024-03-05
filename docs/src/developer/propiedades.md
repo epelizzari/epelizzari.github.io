@@ -6,7 +6,7 @@ Bienvenidos a la documentación de la API de Propiedades, una interfaz diseñada
 
 A través de esta API, los usuarios pueden realizar operaciones detalladas sobre propiedades, incluyendo la gestión de imágenes, categorías, estados de publicación, y mucho más.
 
-Algunos de los metodos de la API no requieren autenticacion ya que son invocados desde el sitio web de la inmobiliar mientras que otros metodos si la requerien ya que forman parte del portal de administracion de la plataforma.
+Algunos de los metodos de la API no requieren autenticación ya que son invocados desde el sitio web de la inmobiliar mientras que otros metodos si la requerien ya que forman parte del portal de administración de la plataforma.
 
 ### Características Principales
 

@@ -30,17 +30,17 @@ Para agregar una nueva propiedad al sistema:
 - **Tipo de Operación:** Venta, alquiler, etc.
 - **Precio y Moneda:** Costo de la propiedad y tipo de moneda.
 - **Cantidad de Baños, Cocheras, Habitaciones:** Detalles específicos de la propiedad.
-- **Seccion de caracteristicas adicionales de la propiedad:** Permite agregar informacion especifica sobre la propiedad en particular que esta siendo cargada o modificada. Guia de gestion de caracteristicas adicionales [Adicionales](/administrator/modulo-de-propiedades.html#caracteristicas-adicionales).
+- **Sección de caracteristicas adicionales de la propiedad:** Permite agregar información especifica sobre la propiedad en particular que esta siendo cargada o modificada. Guía de gestion de caracteristicas adicionales [Adicionales](/administrator/modulo-de-propiedades.html#caracteristicas-adicionales).
 - **Descripción:** Una descripción detallada de la propiedad.
 - **Ubicación:** Dirección exacta de la propiedad.
-- **Departamento:** Departamento de Uruguay al que pertenece la propiedad. (En caso de ser encontrado por el servicio de sugerencias de direcciones dento del mapa, este campo se completara automaticamente)
-- **Mapa:** Permite marcar la direccion a buscar en el mapa. Guia de manejo del mapa [Mapa](/administrator/modulo-de-propiedades.html#mapa).
-- **Imágenes:** Fotografías que representen la propiedad. Guia de gestion de imagenes [Imagenes](/administrator/modulo-de-propiedades.html#gestion-de-imagenes).
+- **Departamento:** Departamento de Uruguay al que pertenece la propiedad. (En caso de ser encontrado por el servicio de sugerencias de direcciones dentro del mapa, este campo se completará automáticamente)
+- **Mapa:** Permite marcar la dirección a buscar en el mapa. Guía de manejo del mapa [Mapa](/administrator/modulo-de-propiedades.html#mapa).
+- **Imágenes:** Fotografías que representen la propiedad. Guía de gestion de imágenes [Imagenes](/administrator/modulo-de-propiedades.html#gestion-de-imagenes).
 
 Una vez completado el formulario, haz clic en "Guardar" para añadir la propiedad al sistema.
-En caso contrario si se presiona el boton "Cancelar" la informacion ingresada hasta el momemento se pierde y seras re dirigido al listado inicial
+En caso contrario si se presiona el boton "Cancelar" la información ingresada hasta el momemento se pierde y seras re dirigido al listado inicial
 
-**Nota: todos los campos sob obligatorios para la creacion de una propiedad excepto las caracateristicas variables y las imagenes**
+**Nota: todos los campos sob obligatorios para la creación de una propiedad excepto las caracateristicas variables y las imagenes**
 
 ![Imagen del formulario de propiedad](/assets/propiedades/FormCargarPropiedaCompleto.png)
 
@@ -61,20 +61,20 @@ Los filtros activos se muestran en una sección ubicada encima de los campos de 
 
 ### Acciones sobre las Propiedades
 
-Para acceder a las acciones sobre la propiedad seleccionada, se debe desplegar el menu de 3 puntos verticales ubicados al final de cada fila de la lista de propiedades, donde se visualizan las siguientes opciones
+Para acceder a las acciones sobre la propiedad seleccionada, se debe desplegar el menú de 3 puntos verticales ubicados al final de cada fila de la lista de propiedades, donde se visualizan las siguientes opciones
 
 - **Modificar/Actualizar:** Permite editar la información de una propiedad existente.
 
-  Los pasos para actualizar la informacion de una propiedad son los siguientes:
+  Los pasos para actualizar la información de una propiedad son los siguientes:
 
-  1. Haz clic en la opcion "Editar" del menu.
-  2. Serás dirigido al formulario de modificacion de la propiedad, donde deberás modificar toda la información que desees.
+  1. Haz clic en la opción "Editar" del menú.
+  2. Serás dirigido al formulario de modificación de la propiedad, donde deberás modificar toda la información que desees.
 
-     **Nota: el formulario de creacion y modificacion de propiedad son iguales.**
+     **Nota: el formulario de creación y modificación de propiedad son iguales.**
 
-- **Cambios de Estado de la publicacion:** Controla si la propiedad está publicada o no en el sitio web. Si una propiedad se setea como "Publicada" automaticamente aparecera en el listado de propiedades de la web.
-- **Cambios de Estado de reserva:** Controla si la propiedad está reservada o no en el sitio web. Si una propiedad se setea como "Reservada" automaticamente aparecera en el listado de propiedades de la web con un dato que especifica su estado como "reservada".
-- **Cambios de Estado de Destacado:** Controla si la propiedad está destacada o no en el sitio web. las propiedades destacadas figuran la pagina principal del sitio web. Si una propiedad se setea como "Destacada" automaticamente aparecera en el listado de propiedades destacadas de la web.
+- **Cambios de Estado de la publicacion:** Controla si la propiedad está publicada o no en el sitio web. Si una propiedad se setea como "Publicada" automáticamente aparecerá en el listado de propiedades de la web.
+- **Cambios de Estado de reserva:** Controla si la propiedad está reservada o no en el sitio web. Si una propiedad se setea como "Reservada" automáticamente aparecerá en el listado de propiedades de la web con un dato que especifica su estado como "reservada".
+- **Cambios de Estado de Destacado:** Controla si la propiedad está destacada o no en el sitio web. las propiedades destacadas figuran la pagina principal del sitio web. Si una propiedad se setea como "Destacada" automáticamente aparecerá en el listado de propiedades destacadas de la web.
 - **Eliminar:** Remueve la propiedad del sistema.
 
 Cada acción está diseñada para facilitar la gestión eficiente de las propiedades, asegurando que la información presentada a los usuarios finales sea precisa y actualizada.
@@ -104,11 +104,11 @@ El formulario para crear propiedades incorpora una funcionalidad esencial: la ca
 
 ### Mapa
 
-Para marcar la direccion en el mapa es posibile abrir el dialogo presionando el boton "Marcar en mapa", dentro de este dialogo es posible marcar en el mapa la direccion exacta donde esta ubicada la propiedad, en el lugar donde se haga click sobre el mapa aparecera un icono tipo pin que marcara la ubicacion, este puede ser movido y ajustado segun sea necesario.
+Para marcar la dirección en el mapa es posibile abrir el diálogo presionando el boton "Marcar en mapa", dentro de este diálogo es posible marcar en el mapa la dirección exacta donde esta ubicada la propiedad, en el lugar donde se haga click sobre el mapa aparecerá un icono tipo pin que marcará la ubicacion, este puede ser movido y ajustado segun sea necesario.
 
-Es posible utilizar el campo de busqueda ubicado en la parte superior del dialogo para buscar una direccion, se generaran sugerencias de posibles direcciones que coincidian con la busqueda y en caso de seleccionar algunas de las coincidencias la misma se marcara automaticamente en el mapa.
+Es posible utilizar el campo de búsqueda ubicado en la parte superior del diálogo para buscar una dirección, se generaran sugerencias de posibles direcciones que coincidían con la búsqueda y en caso de seleccionar algunas de las coincidencias la misma se marcará automáticamente en el mapa.
 
-En caso de que el buscador de direcciones encuentre el departamento correspondiente a la direccion seleccionada, el campo departamento en el formulario de creacion de la propiedad quedara cargado con el departamento encontrado (si no es correcto, el dato puede ser modificado por el usuario)
+En caso de que el buscador de direcciones encuentre el departamento correspondiente a la dirección seleccionada, el campo departamento en el formulario de creación de la propiedad quedara cargado con el departamento encontrado (si no es correcto, el dato puede ser modificado por el usuario)
 
 ![Imagen de Mapa](/assets/propiedades/Mapa.png)
 
@@ -116,4 +116,4 @@ En caso de que el buscador de direcciones encuentre el departamento correspondie
 
 ## Videos de las funcionalidades
 
-Por mas detalles de las funcionales descriptas en este modulo accede a las guias de video [Propiedaedes](/administrator/videos.md#propiedades)
+Por más detalles sobre estas funcionalidades puedes dirigirte a la guía de video: [Propiedaedes](/administrator/videos.md#propiedades)

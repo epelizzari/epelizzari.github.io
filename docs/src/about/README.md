@@ -1,4 +1,4 @@
 # Acerca del sistema
 
-- Informacion general sobre el sistema.
+- Información general sobre el sistema.
 - Tecnologias utilizadas

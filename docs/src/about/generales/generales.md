@@ -8,9 +8,9 @@ La aplicación para la Inmobiliaria Braida es una solución integral diseñada p
 
 ### Sitio web de la inmobiliaria
 
-- **Catálogo Completo**: Exhibición detallada de propiedades disponibles, incluyendo fotos, descripciones, ubicacion en mapa, precios y características específicas.
+- **Catálogo Completo**: Exhibición detallada de propiedades disponibles, incluyendo fotos, descripciones, ubicación en mapa, precios y características específicas.
 - **Filtrado y Búsqueda**: Herramientas avanzadas para buscar y filtrar propiedades según diversos criterios, mejorando la experiencia del usuario final.
-- **Contacto**: Contacto directo a traves de Whatsaap con la inmobiliaria para realizar consultas y/o obtener informacion sobre una propiedad en especifico. 
+- **Contacto**: Contacto directo a traves de Whatsaap con la inmobiliaria para realizar consultas y/o obtener información sobre una propiedad en especifico. 
 - **Interfaz Atractiva**: Diseño moderno y responsivo que garantiza una navegación fluida y una presentación atractiva de las propiedades.
 
 
@@ -18,18 +18,18 @@ La aplicación para la Inmobiliaria Braida es una solución integral diseñada p
 ### Portal de Administración
 
 - **Control Total**: Herramientas administrativas para gestionar propiedades, arrendadores y publicaciones en el sitio web.
-- **Interfaz Intuitiva**: Interfaz de usuario simplificada para que los administradores puedan accedes de forma agil a toda la informacion necesaria
+- **Interfaz Intuitiva**: Interfaz de usuario simplificada para que los administradores puedan accedes de forma agil a toda la información necesaria
 
 ### Gestión de Propiedades
 
-- **Registro**: Sistema de registro completo para propiedades, permitiendo una gestion optima de la informacion de las mismas.
+- **Registro**: Sistema de registro completo para propiedades, permitiendo una gestion optima de la información de las mismas.
 - **Acciones sobre las propiedades**: El sistema permite realizar acciones sobre cada propiedad:
 
 | Acción               | Descripción                                                                                       |
 |----------------------|---------------------------------------------------------------------------------------------------|
 | Agregar              | Permite a los administradores y arrendadores añadir nuevas propiedades al sistema.                |
 | Editar               | Facilita la modificación de los detalles de una propiedad, como precio, descripción y características. |
-| Preview              | Facilita la visualizacion de los detalles de una propiedad,como vista previa de como sera visualizada en la web. |
+| Preview              | Facilita la visualización de los detalles de una propiedad,como vista previa de como sera visualizada en la web. |
 | Eliminar             | Habilita la opción de remover propiedades del catálogo, por ejemplo, cuando se venden o retiran del mercado.  |
 | Publicar             | Permite marcar una propiedad como disponible para su visualización en el sitio web de la inmobiliaria.      |
 | Despublicar          | Retira la propiedad de la lista pública, haciéndola invisible en el sitio web sin eliminarla del sistema. |
@@ -46,8 +46,8 @@ Cada una de estas acciones está diseñada para ofrecer un control total y flexi
 
 ### Gestión de Arrendadores
 
-- **Listado de arrendadores**: Sistema de registro completo para arrendadores, permitiendo una gestion optima de la informacion de los mismos y sus propiedades asociadas.
-- **Registro**: Sistema de registro completo de arrendadores, permitiendo una gestion optima de la informacion de los mismos.
+- **Listado de arrendadores**: Sistema de registro completo para arrendadores, permitiendo una gestion optima de la información de los mismos y sus propiedades asociadas.
+- **Registro**: Sistema de registro completo de arrendadores, permitiendo una gestion optima de la información de los mismos.
 - **Acciones sobre los arrendadores**: El sistema permite realizar acciones específicas sobre cada arrendador:
 
 | Acción     | Descripción                                                                                   |

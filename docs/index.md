@@ -3,7 +3,7 @@
 layout: home
 title: Home
 hero:
-  name: "Documentacion Braida Propiedades"
+  name: "Documentación Braida Propiedades"
   text: "Proyecto AP PY30 Braida Propiedades"
   tagline: My great project tagline
   actions:
